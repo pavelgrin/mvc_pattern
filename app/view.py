@@ -28,7 +28,7 @@ class View(IObserver):
 
     def __drawWindow(self):
         self.__window.title("SIMPLE MVC")
-        self.__window.geometry("200x130")
+        self.__window.geometry("200x170")
 
         label = Label(textvariable=self.__labelText, font=("Arial Bold", 50))
         updateBtn = Button(text="Update", command=self.__updateRandNumber)
